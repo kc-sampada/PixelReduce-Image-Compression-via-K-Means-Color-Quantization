@@ -1,4 +1,4 @@
-🎨 # PixelReduce
+# 🎨 PixelReduce
 
 Image compression via K-Means color quantization — a Streamlit app that clusters an image's pixels in RGB space and repaints each pixel with its cluster's centroid color.
 
