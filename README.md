@@ -1,4 +1,4 @@
-#🎨PixelReduce — Image Compression via K-Means Color Quantization
+## 🎨PixelReduce — Image Compression via K-Means Color Quantization
 
 Reduce an image to a handful of colors using K-Means clustering on pixel RGB
 values — a small, visual demonstration of unsupervised learning applied to
