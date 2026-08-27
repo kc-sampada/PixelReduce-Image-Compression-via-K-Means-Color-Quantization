@@ -1,4 +1,4 @@
-## 🎨PixelReduce:Image Compression via K-Means Color Quantization
+## PixelReduce:Image Compression via K-Means Color Quantization
 
 Reduce an image to a handful of colors using K-Means clustering on pixel RGB
 values ; a small, visual demonstration of unsupervised learning applied to
@@ -12,7 +12,7 @@ in visual quality.
 
 ---
 
-## ✨ Features
+## Features
 
 - Upload any image and choose **K**, the number of colors (2–64)
 - Before/after visual comparison
@@ -25,22 +25,22 @@ in visual quality.
 
 ---
 
-## 🧠 How it works
+## How it works
 
-1. **Points in RGB space** — every pixel's `(R, G, B)` triple becomes a
+1. **Points in RGB space** :  every pixel's `(R, G, B)` triple becomes a
    coordinate in a 3D color cube. A modest image can easily contain tens of
    thousands of such points.
-2. **Assign & update** — K centroids are seeded with K-Means++. Each pixel
+2. **Assign & update** : K centroids are seeded with K-Means++. Each pixel
    is assigned to its nearest centroid; each centroid then moves to the mean
    of its assigned pixels. This repeats until the centroids stop moving
    (or a max iteration count is hit).
-3. **Repaint with centroids** — once converged, every pixel is replaced by
+3. **Repaint with centroids** : once converged, every pixel is replaced by
    its cluster's centroid color, so the final image uses only K colors
    instead of potentially millions.
 
 ---
 
-## 📦 Project structure
+##  Project structure
 
 ```
 PixelReduce/
@@ -60,7 +60,7 @@ PixelReduce/
 
 ---
 
-## 🚀 Getting started
+## Getting started
 
 ### Requirements
 - Python 3.9+
@@ -85,7 +85,7 @@ Full step-by-step instructions, including VS Code-specific setup, are in
 
 ---
 
-## 🛠️ Tech stack
+## Tech stack
 
 | Purpose | Library |
 |---|---|
@@ -96,7 +96,7 @@ Full step-by-step instructions, including VS Code-specific setup, are in
 
 ---
 
-## 📊 Example metrics
+## Example metrics
 
 | K | PSNR (dB) | Notes |
 |---|---|---|
@@ -109,7 +109,7 @@ Full step-by-step instructions, including VS Code-specific setup, are in
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Benchmark against median-cut and octree quantization more rigorously
 - [ ] Extend to GIF and video frame-sequence compression
@@ -118,17 +118,12 @@ Full step-by-step instructions, including VS Code-specific setup, are in
 
 ---
 
-## 🎓 Background
 
-This project was built as an exploration of applying an unsupervised
-learning algorithm (K-Means) to a tangible, visual problem — image
-compression — comparing cluster count, reconstruction quality, and
-estimated output size.
 
-Team Members
-This project was developed as a group project by:
-Sampada K.C.
-Shine Pandey
-Smarita Karkee
-Tabita Mali
+## Team Members
+- This project was developed as a group project by:
+- Sampada K.C.
+- Shine Pandey
+- Smarita Karkee
+- Tabita Mali
 
