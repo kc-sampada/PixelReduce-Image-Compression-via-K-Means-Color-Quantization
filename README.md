@@ -1,7 +1,7 @@
-## 🎨PixelReduce — Image Compression via K-Means Color Quantization
+## 🎨PixelReduce:Image Compression via K-Means Color Quantization
 
 Reduce an image to a handful of colors using K-Means clustering on pixel RGB
-values — a small, visual demonstration of unsupervised learning applied to
+values ; a small, visual demonstration of unsupervised learning applied to
 lossy image compression.
 
 Every pixel in an image is a point in 3D RGB space. PixelReduce clusters all
@@ -17,9 +17,9 @@ in visual quality.
 - Upload any image and choose **K**, the number of colors (2–64)
 - Before/after visual comparison
 - **PSNR** (Peak Signal-to-Noise Ratio) as a quality metric
-- Estimated file-size comparison (original vs. palette-indexed encoding)
+- Estimated file : size comparison (original vs. palette-indexed encoding)
 - Extracted color palette with hex values
-- **Posterize mode** — a stylized, higher-contrast variant of the palette
+- **Posterize mode** : a stylized, higher-contrast variant of the palette
 - Optional side-by-side comparison against PIL's built-in **median-cut**
   quantizer
 
